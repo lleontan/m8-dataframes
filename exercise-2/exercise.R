@@ -16,9 +16,9 @@ scores.spread$diff<-game.scores-opposing.scores
 scores.spread$won<-scores.spread[["diff"]]>0
 
 # Create a vector of the opponents
-opponents<-c("The miami heat","The boston whitesocks",
+opponents<-c("The Miami heat","The Boston Whitesocks",
              "The Canucks","Team USA","The maine marauders",
-             "The washington redskins")
+             "The A-Team")
 
 # Assign your dataframe rownames of their opponents
 
